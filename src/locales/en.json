@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "main": {
+    "title": "AI Sentence Generator",
+    "generateButton": "Generate Sentences",
+    "loading": "Generating...",
+    "topic": "Sentence Topic",
+    "topicPlaceholder": "Enter a topic (e.g., technology, nature, sports)",
+    "style": "Writing Style",
+    "styleCasual": "Casual",
+    "styleFormal": "Formal",
+    "stylePoetic": "Poetic",
+    "count": "Number of Sentences"
+  },
+  "footer": {
+    "copyright": "© 2024 AI Sentence Generator. All rights reserved."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "首页",
+    "about": "关于我们",
+    "contact": "联系我们"
+  },
+  "main": {
+    "title": "AI 句子生成器",
+    "generateButton": "生成句子",
+    "loading": "正在生成...",
+    "topic": "句子主题",
+    "topicPlaceholder": "输入一个主题（例如：技术、自然、体育）",
+    "style": "写作风格",
+    "styleCasual": "随意",
+    "styleFormal": "正式",
+    "stylePoetic": "诗意",
+    "count": "句子数量"
+  },
+  "footer": {
+    "copyright": "© 2024 AI 句子生成器。保留所有权利。"
+  }
+}

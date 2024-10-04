@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "main": {
+    "title": "KI-Satzgenerator",
+    "generateButton": "Sätze generieren",
+    "loading": "Generiere...",
+    "topic": "Satzthema",
+    "topicPlaceholder": "Geben Sie ein Thema ein (z.B. Technologie, Natur, Sport)",
+    "style": "Schreibstil",
+    "styleCasual": "Lässig",
+    "styleFormal": "Formal",
+    "stylePoetic": "Poetisch",
+    "count": "Anzahl der Sätze"
+  },
+  "footer": {
+    "copyright": "© 2024 KI-Satzgenerator. Alle Rechte vorbehalten."
+  }
+}

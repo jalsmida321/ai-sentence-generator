@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "contact": "お問い合わせ"
+  },
+  "main": {
+    "title": "AI文章生成器",
+    "generateButton": "文章を生成",
+    "loading": "生成中...",
+    "topic": "文章のトピック",
+    "topicPlaceholder": "トピックを入力してください（例：技術、自然、スポーツ）",
+    "style": "文章スタイル",
+    "styleCasual": "カジュアル",
+    "styleFormal": "フォーマル",
+    "stylePoetic": "詩的",
+    "count": "文章の数"
+  },
+  "footer": {
+    "copyright": "© 2024 AI文章生成器。全著作権所有。"
+  }
+}

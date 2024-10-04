@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "main": {
+    "title": "Generador de Frases IA",
+    "generateButton": "Generar Frases",
+    "loading": "Generando...",
+    "topic": "Tema de la Frase",
+    "topicPlaceholder": "Ingrese un tema (ej. tecnología, naturaleza, deportes)",
+    "style": "Estilo de Escritura",
+    "styleCasual": "Casual",
+    "styleFormal": "Formal",
+    "stylePoetic": "Poético",
+    "count": "Número de Frases"
+  },
+  "footer": {
+    "copyright": "© 2024 Generador de Frases IA. Todos los derechos reservados."
+  }
+}

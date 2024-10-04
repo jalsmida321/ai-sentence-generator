@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "main": {
+    "title": "Générateur de Phrases IA",
+    "generateButton": "Générer des Phrases",
+    "loading": "Génération en cours...",
+    "topic": "Sujet de la Phrase",
+    "topicPlaceholder": "Entrez un sujet (ex. technologie, nature, sports)",
+    "style": "Style d'Écriture",
+    "styleCasual": "Décontracté",
+    "styleFormal": "Formel",
+    "stylePoetic": "Poétique",
+    "count": "Nombre de Phrases"
+  },
+  "footer": {
+    "copyright": "© 2024 Générateur de Phrases IA. Tous droits réservés."
+  }
+}
