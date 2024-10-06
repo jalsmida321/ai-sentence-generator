@@ -42,7 +42,78 @@ const SentenceGenerator: React.FC = () => {
     }
   }
 
-  // ... rest of the component remains the same
+  return (
+    <div className="max-w-2xl mx-auto">
+      <div className="mb-4">
+        <label htmlFor="topic" className="block mb-2 font-semibold">
+          {t('main.topic')}
+        </label>
+        <input
+          type="text"
+          id="topic"
+          value={topic}
+          onChange={(e) => setTopic(e.target.value)}
+          className="w-full px-3 py-2 border rounded-md"
+          placeholder={t('main.topicPlaceholder')}
+        />
+      </div>
+      <div className="mb-4">
+        <label htmlFor="style" className="block mb-2 font-semibold">
+          {t('main.style')}
+        </label>
+        <select
+          id="style"
+          value={style}
+          onChange={(e) => setStyle(e.target.value)}
+          className="w-full px-3 py-2 border rounded-md"
+        >
+          <option value="casual">{t('main.styleCasual')}</option>
+          <option value="formal">{t('main.styleFormal')}</option>
+          <option value="poetic">{t('main.stylePoetic')}</option>
+        </select>
+      </div>
+      <div className="mb-4">
+        <label htmlFor="count" className="block mb-2 font-semibold">
+          {t('main.count')}
+        </label>
+        <input
+          type="number"
+          id="count"
+          value={count}
+          onChange={(e) => setCount(parseInt(e.target.value))}
+          min="1"
+          max="5"
+          className="w-full px-3 py-2 border rounded-md"
+        />
+      </div>
+      <button
+        onClick={generateSentences}
+        disabled={loading}
+        className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300 flex items-center justify-center"
+      >
+        {loading ? (
+          <>
+            <RefreshCw className="animate-spin mr-2" />
+            {t('main.loading')}
+          </>
+        ) : (
+          t('main.generateButton')
+        )}
+      </button>
+      {sentences.length > 0 && (
+        <div className="mt-6">
+          <h2 className="text-xl font-semibold mb-2">Generated Sentences:</h2>
+          <ul className="list-disc pl-5">
+            {sentences.map((sentence, index) => (
+              <li key={index} className="mb-2">
+                {sentence}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  )
 }
 
 export default SentenceGenerator
