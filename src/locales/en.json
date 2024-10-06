@@ -18,5 +18,8 @@
   },
   "footer": {
     "copyright": "© 2024 AI Sentence Generator. All rights reserved."
+  },
+  "error": {
+    "generation": "An error occurred while generating sentences. Please try again."
   }
 }
